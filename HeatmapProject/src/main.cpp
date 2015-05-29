@@ -1,8 +1,8 @@
-#include "Analytics.h"
+#include "HeatmapProject.h"
 
 int main()
 {
-	Analytics app;
+    HeatmapProject app;
 
     if (app.startup() == false)
     {
